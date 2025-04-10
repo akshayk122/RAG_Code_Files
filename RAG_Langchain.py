@@ -107,7 +107,7 @@ rag_prompt = ChatPromptTemplate.from_template(template)
 # Set up the OpenRouter LLM with the specified model and API key
 llm = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
-    openai_api_key="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",  # Replace with your actual key
+    openai_api_key="YOUR_API_KEY",  # Replace with your actual key
     model="mistralai/mixtral-8x7b",  # Or any model supported by OpenRouter
     temperature=0.5
 )
